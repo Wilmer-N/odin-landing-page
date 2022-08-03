@@ -1,0 +1,39 @@
+:root{
+    --dark-back-text: #1f2937;
+    --quote-back-second: #e5e7eb;
+    --white: #f9faf8;
+    --button: #3882f6;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    background-color: var(--dark-back-text);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 200px;
+    align-items: center;
+}
+
+header > ul {
+    display: flex;
+    gap: 18px;
+}
+
+header > ul > li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: var(--quote-back-second);
+    font-size: 18px;
+}
