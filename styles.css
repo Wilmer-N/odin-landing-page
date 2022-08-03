@@ -42,12 +42,14 @@ a{
 }
 /* Above this is the css for the header*/
 
+/* below this is title*/
 #title{
     background-color: var(--dark-back-text);
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 100px 200px;
+    height: 30em;
+    padding: 10em 200px;
     gap: 50px;
      
 }
@@ -63,6 +65,9 @@ a{
     color: var(--white);
     
 }
+.title-text{
+    align-self: center;
+}
 
 .title-text h1{
     color: var(--white);
@@ -74,6 +79,7 @@ a{
 }
 .title-text p {
     font-size: 18px;
+    margin-top: 0;
     color: var(--quote-back-second);
 
 }
@@ -84,4 +90,37 @@ a{
     border: none;
     background-color: var(--button);
     color: var(--white);
+}
+/* above this is title*/
+
+/*below this is intro*/
+
+#intro{
+    height: 30em;
+    width: 100%;
+    padding: 0 200px;
+}
+
+#intro h1{
+    text-align: center;
+    font-size: 36px;
+    color: var(--dark-back-text);
+    font-weight: extra-bold;
+}
+.square{
+    border: 3px solid var(--button);
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    gap: 10px;
+}
+.card{
+    width: 150px;
+    text-align: center;
+    color: var(--dark-back-text);
 }
