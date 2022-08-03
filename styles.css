@@ -199,3 +199,8 @@ footer{
 }
 
 /*Above this is footer*/
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
